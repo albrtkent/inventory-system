@@ -121,8 +121,8 @@ class Auth extends CI_Controller
     $mail->isSMTP();
     $mail->Host     = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'master.polibatam.isp@gmail.com';
-    $mail->Password = 'sxbdmmclqgggacom';
+    $mail->Username = ''; //Your email
+    $mail->Password = ''; //Your password
     $mail->SMTPSecure = 'ssl';
     $mail->Port     = 465;
 
